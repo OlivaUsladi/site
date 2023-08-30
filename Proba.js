@@ -24,6 +24,9 @@ function check() {
     return false;  
 
   }    
+  else{
+    return true;
+  }
   /*let pasw = /(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/;
   if(p1.value.match(pasw)) { 
     console.log('Cработало');
